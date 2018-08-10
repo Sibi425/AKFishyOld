@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿namespace AKFishy
 {
-    partial class Form1
+    partial class MainWindow
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -60,7 +60,7 @@
             this.TestLabel.Text = "TestText";
             this.TestLabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,9 +68,9 @@
             this.Controls.Add(this.TestLabel);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.listView1);
-            this.Name = "Form1";
+            this.Name = "MainWindow";
             this.RightToLeftLayout = true;
-            this.Text = "Form1";
+            this.Text = "MainWindow";
             this.ResumeLayout(false);
             this.PerformLayout();
 
